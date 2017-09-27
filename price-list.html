@@ -2,28 +2,31 @@
 <html lang ="ru">
 	<head>
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/price.css" rel="stylesheet">
 		<meta charset="utf-8">
 		<title>Барбершоп «Бородинский»</title>
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="container">
+			<div class="container clearfix">
 				<nav class="main-navigation">
-					<li>
-						<a href="#">Информация</a>
-					</li>
-					<li>
-						<a href="#">Новости</a>
-					</li>
-					<li>
-						<a href="#">Прайс-лист</a>
-					</li>
-					<li>
-						<a href="#">Магазин</a>
-					</li>
-					<li>
-						<a href="#">Контакты</a>
-					</li>
+					<ul>
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Прайс-лист</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
 				</nav>
 				<div class="user-block">
 					<a class="login" href="#">Вход</a>
@@ -31,23 +34,21 @@
 			</div>
 		</header>
 		<main class="container">
-			<div class="content">
-				<h1 class="content-title">Прайс-лист </h2>
-				<ul class="current-page ">
+				<h1 class="page-title">Прайс-лист </h2>
+				<ul class="breadcrumbs">
 					<li>
-						<a href="#">Главная</a>
+						<a href="index.html">Главная</a>
 					</li>
 					<li>
 						<a href="#">Прайс-лист</a>
 					</li>
 				</ul>
-				<div class="price-list-title">
+				<div class="content-title">
 					<b> Истинно Мужская классика </b>
-					<hr>
 				</div>
-				<div class="price-list-content">
-					<div class="price-list-content-right">
-						<h2 class="price-list-content-title">
+				<div class="price-content clearfix">
+					<div class="price-content-left">
+						<h2 class="price-content-title">
 						Мы используем только лучшие средства:
 						</h2>
 						<ul>
@@ -66,8 +67,8 @@
 						</li>
 						</ul>
 					</div>
-					<div class="price-list-content-left">
-						<h2 class="price-list-content-title">
+					<div class="price-content-right">
+						<h2 class="price-content-title">
 							Цены на услуги наших мастеров:
 						</h2>
 						<table class="price-list-table">
@@ -92,31 +93,21 @@
 						</table>
 					</div>
 				</div>
-				<div class="price-list-content">
-					<h2 class="price-list-content-title">
+				<div class="price-content clearfix">
+					<h2 class="price-about-title">
 					Несколько слов о нас:
 					</h2>
-					<p class="price-list-content-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<div class="price-about">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество
 
-					</p>
-					<p class="price-list-content-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+					</div>
+					<div class="price-about">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+					</div>
 				</div>
 				
 			</div>
 		</main>
 		<footer class ="main-footer"> 
-			<div class="container">
+			<div class="container clearfix">
 				<section class="footer-contacts">
 					БАРБЕРШОП «БОРОДИНСКИЙ» <br>
 					АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
@@ -129,7 +120,7 @@
 					<a class="social-btn social-btn-fb" href="#">FB</a>
 					<a class="social-btn social-btn-ins" href="#">INS</a>
 				</section>
-				<section class="footer-conpyright">
+				<section class="footer-copyright">
 					<p>Разработано:</p>
 					<a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
 				</section>
