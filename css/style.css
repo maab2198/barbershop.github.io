@@ -7,6 +7,9 @@ body {
 
 }
 
+p,article p,a,li,h3,h4,input,button,form, .footer-contacts,.price{
+	display: none;
+}
 
 body {
 
@@ -15,6 +18,8 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     */
+
+
 }
 
 .main-header {

@@ -87,3 +87,24 @@ font-family: PT Sans Narrow;
 
 	width: 70%;
 }
+
+.shop-content-left {
+	float:left;
+	width:210px;
+	margin-right:20px;
+
+
+	outline:1px solid yellow;
+	min-height: 620px;
+}
+
+.shop-content-right {
+	float:left;
+	width:700px;
+	padding:0 10px;
+	margin-right:-10px;
+	margin-top: -10px;
+
+	outline:1px solid yellow;
+	min-height: 690px;
+}
