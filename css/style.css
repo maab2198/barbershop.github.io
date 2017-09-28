@@ -11,6 +11,8 @@ p,article p,a,li,h3,h4,input,button,form, .footer-contacts,.price{
 	display: none;
 }
 
+
+
 body {
 
 	background-color: white;
@@ -125,6 +127,7 @@ body {
 	outline: 1px solid green;
 
 }
+
 
 .footer-contacts {
 	float: left;

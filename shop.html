@@ -48,89 +48,131 @@
 					</li>
 				</ul>
 			<div class="shop-content-left">
-					<!--Уже есть в index-content-title-->
-					
-						<form class="shop-select">
+					<!--Уже есть в index-content-title-->					
+				<form class="shop-select" method="get">
 					<!--Переделать?-->	
 					<h2 class="shop-content-title">Производители</h2>
-							<input type="checkbox" name="productBrend" value="baxter">
+					<ul>
+						<li>
+							<input type="checkbox" name="productBrend" value="baxter" id ="baxter">
+							<label for="baxter">
 								baxter of calofornia
-
-							<input type="checkbox" name="productBrend" value="mrnatty">
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="productBrend" value="mrnatty" id="mrnatty">
+							<label for="mrnatty">
 								mr natty
-
-							<input type="checkbox" name="productBrend" value="suavecito">
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="productBrend" value="suavecito" id="suavecito">
+							<label for="suavecito">
 								suavecito
-							<input type="checkbox" name="productBrend" value="malin">
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="productBrend" value="malin" id="malin">
+							<label for="malin">
 								malin+goetz
-							<input type="checkbox" name="productBrend" value="malin">
+							</label>
+						</li>
+						<li>
+							<input type="checkbox" name="productBrend" value="crew" id="crew">
+							<label for="crew">
 								american crew
-
+							</label>				
+						</li>
+					</ul>
 					<h2 class="shop-content-title">Группы товаров</h2>	
-							<input type="radio" name="productGroup" value="val1">
+					<ul>
+						<li>
+							<input type="radio" name="productGroup" value="val1" id="val1">
+							<label for="val1">
 								Бритвенные пренадлежности
-
+							</label>	
+						</li>
+						<li>
 							<input type="radio" name="productGroup" value="val2">
+							<label for="val1">
 								Средстка для ухода
-
+							</label>
+						</li>
+						<li>
 							<input type="radio" name="productGroup" value="val3">
+							<label for="val1">
 								Аксессуары
+							</label>
+						</li>
 							<button class="btn bth-search">Показать</button>
-					</form>
+					<ul>
+				</form>
 			</div>
 			<div class="shop-content-right">
 					<article class="shop-product">
-						<img src="img/shop-product1-1.png">
-						<p>Набор для путешествий</p> 
-						<h3 class="brand">«BAXTER OF CALIFORNIA»
-						</h3>
-						<div class="price"> 2 900 руб
-						</div>
+						<img src="img/shop-product1-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category"> Набор для путешествий </span>
+							<span class="brand">«BAXTER OF CALIFORNIA»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 2 900 руб</span>
+						<a class="btn" >Купить</a>
+					</article>
+					<article class="shop-product">
+						<img src="img/shop-product2-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category">Увлажняющий кондиционер</span> 
+							<span class="brand">«BAXTER OF CALIFORNIA»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 750 руб</span>
 						<a class="btn" href="#">Купить</a>
 					</article>
 					<article class="shop-product">
-						<img src="img/shop-product2-1.png">
-						<p>Увлажняющий кондиционер</p> 
-						<h3 class="brand">«BAXTER OF CALIFORNIA»
-						</h3>
-						<div class="price"> 750 руб
-						</div>
+						<img src="img/shop-product3-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category">Гель для путешесвий</span> 
+							<span class="brand">«suavecito»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 290 руб</span>
 						<a class="btn" href="#">Купить</a>
 					</article>
 					<article class="shop-product">
-						<img src="img/shop-product3-1.png">
-						<p>Гель для путешесвий</p> 
-						<h3 class="brand">«suavecito»
-						</h3>
-						<div class="price"> 290 руб
-						</div>
+						<img src="img/shop-product4-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category">Глина для укладки волос</span> 
+							<span class="brand">«american crew»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 500 руб</span>
 						<a class="btn" href="#">Купить</a>
 					</article>
 					<article class="shop-product">
-						<img src="img/shop-product4-1.png">
-						<p>Глина для укладки волос</p> 
-						<h3 class="brand">«american crew»
-						</h3>
-						<div class="price"> 500 руб
-						</div>
+						<img src="img/shop-product5-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category">Гелья для волос</span> 
+							<span class="brand">«american crew»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 300 руб</span>
 						<a class="btn" href="#">Купить</a>
 					</article>
 					<article class="shop-product">
-						<img src="img/shop-product5-1.png">
-						<p>Гелья для волос</p> 
-						<h3 class="brand">«american crew»
-						</h3>
-						<div class="price"> 300 руб
-						</div>
-						<a class="btn" href="#">Купить</a>
-					</article>
-					<article class="shop-product">
-						<img src="img/shop-product6-1.png">
-						<p>Набор для бритья</p> 
-						<h3 class="brand">«BAXTER OF CALIFORNIA»
-						</h3>
-						<div class="price"> 3 900 руб
-						</div>
+						<img src="img/shop-product6-1.png" width="220" height="166">
+						<h2 class="product-decription">
+							<a>
+							<span class="category">Набор для бритья</span> 
+							<span class="brand">«BAXTER OF CALIFORNIA»</span>
+							</a>
+						</h2>
+						<span class="product-price"> 3 900 руб</span>
 						<a class="btn" href="#">Купить</a>
 					</article>
 				<div class="page-slider">
@@ -152,7 +194,7 @@
 				</div>
 				</div>
 		</main>
-		<footer class ="main-footer"> 
+		<footer class ="main-footer shop"> 
 			<div class="container clearfix">
 				<section class="footer-contacts">
 					БАРБЕРШОП «БОРОДИНСКИЙ» <br>
