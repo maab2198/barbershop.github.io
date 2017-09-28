@@ -101,7 +101,7 @@ font-family: PT Sans Narrow;
 .shop-content-right {
 	float:left;
 	width:720px;
-	padding-top: 5px;
+
 
 	margin-right:-10px;
 	margin-top: -10px;
@@ -112,18 +112,86 @@ font-family: PT Sans Narrow;
 .shop-product {
 	float:left;
 	width:220px;
-	border:10px solid transparent;
+	border:10px solid grey;
 
 	outline:1px solid #DB0800;
 	min-height: 290px;
 
 }
+.page-slider{
+	float: left;
+	width: 700px;
+	margin-top: 25px;
+	padding:5px;
 
+	outline:1px solid #AB4533;
+	min-height: 35px;
+
+}
 footer.shop {
 	margin-top: 50px;
 }
+footer.item{
+	margin-top: 20px;
+}
 img {
 	box-sizing: border-box;
-		
+}
+
+.item-gallery{
+	float: left;
+	width: 460px;
+	margin-left:-10px;
+	border:10px solid grey;
+
+	
+	outline:1px solid #AB4533;
+	min-height: 680px;
+}
+
+.item-discription{
+	float: right;
+	width: 380px;
+	padding:10px;
+	padding-top: 20px;
+
+	
+	outline:1px solid #AB4533;
+	min-height: 600px;
+
+}
+
+.item-status{
+	float:left;
+}
+.item-articul{
+	float: right;
+}
+.item-shop{
+	margin-bottom: 35px;
+}
+
+.item-text{
+	margin-bottom: 40px;
+
+	min-height: 139px;
+	outline:1px solid #AB4533;
+}
+
+.product-buy{
+	width: 290px;
+
+	min-height: 45px;
+	outline:1px solid #AB4533;
+
+}
+.item-includes{
+	display: block;
+	margin-top: 60px;
+	margin-bottom:45px;
+}
+.item-list {
+
+	outline:1px solid #AB4533;
 
 }
