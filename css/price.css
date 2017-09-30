@@ -1,7 +1,7 @@
 ul,h1,h2{
 	margin:0;
 font-family: PT Sans Narrow;
-	font-size:  24px;
+	font-size:  12px;
 	text-transform: uppercase;
 }
 
@@ -100,7 +100,9 @@ font-family: PT Sans Narrow;
 
 .shop-content-right {
 	float:left;
+	font-size:0px;
 	width:720px;
+
 
 
 	margin-right:-10px;
@@ -110,7 +112,9 @@ font-family: PT Sans Narrow;
 	min-height: 685px;
 }
 .shop-product {
-	float:left;
+	display:inline-block;
+		vertical-align: top;
+
 	width:220px;
 	border:10px solid grey;
 
@@ -179,7 +183,7 @@ img {
 }
 
 .product-buy{
-	width: 290px;
+	width: 190px;
 
 	min-height: 45px;
 	outline:1px solid #AB4533;
