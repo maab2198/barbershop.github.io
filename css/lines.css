@@ -1,0 +1,181 @@
+
+/*
+article p,a,li,h3,h4,input,button,form, .footer-contacts,.price{
+	display: none;
+}
+*/
+
+.main-header {
+	outline: 1px solid green;
+}
+
+
+.container {
+	outline: 1px solid pink;
+}
+
+.main-navigation{
+	min-height: 70px;
+	outline: 1px solid yellow;
+}
+
+
+.user-block {
+	min-height: 70px;
+	outline: 1px solid yellow;
+}
+
+.index-logo{
+	outline: 1px solid yellow; 
+}
+
+.features-item {
+
+	min-height: 175px;
+	outline: 1px solid blue;
+
+}
+
+
+.index-content{
+
+	outline: 1px solid pink ;
+}
+
+.index-content-left{
+
+
+	outline: 1px solid orange ;
+}
+
+.index-content-right{
+
+	outline: 1px solid orange;
+}
+.main-footer {
+	outline: 1px solid green;
+
+}
+
+
+.footer-contacts {
+	min-height: 90px;
+	outline: 1px solid yellow;
+}
+
+.footer-social {
+
+	min-height: 90px;
+	outline: 1px solid yellow;
+}
+
+.footer-copyright {
+	min-height: 90px;
+	outline: 1px solid yellow;
+}
+
+
+.page-title {
+	outline:1px solid red;
+	min-height: 10px;
+}
+
+.breadcrumbs{
+
+	outline:1px solid red;
+	height: 15px;
+
+}
+
+.content-title {
+	outline:1px solid red;
+	min-height: 50px;
+}
+
+.price-content {
+
+	outline:1px solid pink;
+
+}
+
+.price-content-right {
+
+	outline:1px solid yellow;
+	min-height: 230px;
+
+
+}
+
+.price-content-left {
+
+	outline:1px solid yellow;
+	min-height: 230px;
+
+}
+
+.price-about {
+	outline:1px solid yellow;
+	min-height: 100px;
+	
+
+}
+
+.price-about-title,price-content-title{
+	outline:1px solid red;
+	min-height: 20px;
+
+}
+
+
+.shop-content-left {
+	outline:1px solid yellow;
+	min-height: 620px;
+}
+
+.shop-content-right {
+	outline:1px solid yellow;
+	min-height: 685px;
+}
+.shop-product {
+
+	outline:1px solid #DB0800;
+	min-height: 290px;
+
+}
+.page-slider{
+	outline:1px solid #AB4533;
+	min-height: 35px;
+
+}
+
+
+.item-gallery{
+	outline:1px solid #AB4533;
+	min-height: 680px;
+}
+
+.item-discription{
+
+	outline:1px solid #AB4533;
+	min-height: 600px;
+
+}
+
+
+
+.item-text{
+	min-height: 139px;
+	outline:1px solid #AB4533;
+}
+
+.product-buy{
+	min-height: 45px;
+	outline:1px solid #AB4533;
+
+}
+
+.item-list {
+
+	outline:1px solid #AB4533;
+
+}
