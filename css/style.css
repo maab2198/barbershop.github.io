@@ -100,7 +100,8 @@ body {
 	width: 18px;
 	height:18px;
 
-	background: #ff0000 url("img/sprite.png") no-repeat -1px -15px ;
+
+	background:url("../img/sprite.png") no-repeat -188px -10px ;
 	opacity: 0.3;
 }
 
@@ -173,8 +174,8 @@ body {
 	color: #000000;
 
 	background: 
-	url("../img/index-content-shadow") no-repeat center,
-	#f8f5f2 url("../img/pattern-white.jpg")
+	url("../img/index-content-shadow.png") no-repeat center,
+	#f8f5f2 url("../img/pattern-white.png")
 	;
 }
 
@@ -332,7 +333,7 @@ body {
 
 	color: #ffffff;
 
-	background: #252525 url("../img/pattern-black.jpg");
+	background: #252525 url("../img/pattern-black.png");
 }
 
 .footer-contacts {
@@ -374,28 +375,29 @@ body {
 		background-position: 0.5s,
 		background-color: 0.5s
 	;
+
 }
 .social-btn:hover {
 	background-color: #ffffff;
 }
 
 .social-btn-vk {
-	background-position: 9px -447px;
+	background-position: -215px 10px;
 }
 .social-btn-fb {
-	background-position: 15px -171px;
+	background-position: -12px 0px;
 }
 .social-btn-ins {
-	background-position: 12px -313px;
+	background-position: -96px 0px;
 }
 .social-btn-vk:hover {
-	background-position: 9px -381px;
+	background-position: -252px -14px;
 }
 .social-btn-fb:hover {
-	background-position: 15px -100px;
+	background-position: -24px 0px;
 }
 .social-btn-ins:hover {
-	background-position: 12px -242px;
+	background-position: -137px 0px;
 }
 
 .footer-copyright {
@@ -421,6 +423,24 @@ body {
 }
 
 
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-ico-checkbox-cross {
+    width: 12px;
+    height: 12px;
+    background-position: -10px -10px;
+}
+
+
+.sprite-ico-login {
+    width: 18px;
+    height: 16px;
+    background-position: -188px -10px;
+}
 
 
 
