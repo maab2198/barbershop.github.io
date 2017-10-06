@@ -94,14 +94,14 @@ body {
 .login::before {
 	content: "";
 	position: absolute;
-	top:28px;
+	top:26px;
 	left:20px;
 
 	width: 18px;
 	height:18px;
 
 
-	background:url("../img/sprite.png") no-repeat -188px -10px ;
+	background: url("../img/sprite.png") no-repeat -15px -263px; ;
 	opacity: 0.3;
 }
 
@@ -382,22 +382,22 @@ body {
 }
 
 .social-btn-vk {
-	background-position: -215px 10px;
+	background-position: -6px -295px;
 }
 .social-btn-fb {
-	background-position: -12px 0px;
+	background-position: 0 -47px;
 }
 .social-btn-ins {
-	background-position: -96px 0px;
+	background-position: -3px -151px;
 }
 .social-btn-vk:hover {
-	background-position: -252px -14px;
+	background-position: -6px -341px;
 }
 .social-btn-fb:hover {
-	background-position: -24px 0px;
+	background-position: 0 -99px;
 }
 .social-btn-ins:hover {
-	background-position: -137px 0px;
+	background-position: -3px -202px;
 }
 
 .footer-copyright {
