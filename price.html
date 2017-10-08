@@ -7,10 +7,13 @@
 		<meta charset="utf-8">
 		<title>Барбершоп «Бородинский»</title>
 	</head>
-	<body>
+	<body class="inner-page">
 		<header class="main-header">
 			<div class="container clearfix">
 				<nav class="main-navigation">
+					<a class="inner-logo" href="index.html">
+						<img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп Бородинский">
+					</a>	
 					<ul>
 						<li>
 							<a href="#">Информация</a>
@@ -18,8 +21,8 @@
 						<li>
 							<a href="#">Новости</a>
 						</li>
-						<li>
-							<a href="#">Прайс-лист</a>
+						<li class="active">
+							<a>Прайс-лист</a>
 						</li>
 						<li>
 							<a href="#">Магазин</a>
@@ -35,44 +38,46 @@
 			</div>
 		</header>
 		<main class="container">
-				<h1 class="page-title">Прайс-лист </h2>
+				<div class="inner-page-title">
+				<h1>Прайс-лист </h1>
 				<ul class="breadcrumbs">
 					<li>
 						<a href="index.html">Главная</a>
 					</li>
-					<li>
-						<a href="#">Прайс-лист</a>
+					<li class="current">
+						Прайс-лист
 					</li>
 				</ul>
-				<div class="content-title">
-					<b> Истинно Мужская классика </b>
 				</div>
-				<div class="price-content clearfix">
-					<div class="price-content-left">
-						<h2 class="price-content-title">
+				<div class="inner-content">
+				<div class="big-heading">
+					<h2> Истинно Мужская классика </h2>
+				</div>
+				<div class="inner-colums clearfix clearfix">
+					<div class="inner-column-left">
+						<h2 >
 						Мы используем только лучшие средства:
 						</h2>
-						<ul>
-						<!--Ромб-->
-							<li class="romb">
-											baxter of calofornia
+						<ul class="custom-list-1">
+							<li>
+							baxter of calofornia
 							</li>
-							<li class="romb">
+							<li>
 							mr natty
 							</li>
-							<li class="romb">
+							<li>
 							suavecito
 							</li>
-							<li class="romb">
+							<li>
 							malin+goetz
 						</li>
 						</ul>
 					</div>
-					<div class="price-content-right">
-						<h2 class="price-content-title">
+					<div class="inner-column-right">
+						<h2>
 							Цены на услуги наших мастеров:
 						</h2>
-						<table class="price-list-table">
+						<table class="prices-table">
 							<tr>
 								<td> Стрижка
 								</td>
@@ -94,14 +99,17 @@
 						</table>
 					</div>
 				</div>
-				<div class="price-content clearfix">
-					<h2 class="price-about-title">
+				<div class="inner-colums clearfix">
+					<h2>
 					Несколько слов о нас:
 					</h2>
-					<div class="price-about">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество
-
+					<div class="inner-column-left">
+						<p class="short-text">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество
+						</p>
 					</div>
-					<div class="price-about">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+					<div class="inner-column-right">
+						<p class="short-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+						</p>
 					</div>
 				</div>
 				

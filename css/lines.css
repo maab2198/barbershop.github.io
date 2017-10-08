@@ -4,7 +4,9 @@ article p,a,li,h3,h4,input,button,form, .footer-contacts,.price{
 	display: none;
 }
 */
-
+body * > div {
+	outline: 1px solid green;
+}
 .main-header {
 	outline: 1px solid green;
 }
