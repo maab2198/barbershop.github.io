@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 body { 
 	min-width: 960px;
 
@@ -277,7 +278,7 @@ body {
 	margin-right: 16px;
 	padding: 10px 33px;
 
-	/*font:inherit;*/
+
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
@@ -375,6 +376,7 @@ body {
 }
 
 /*Стили внутренних страниц*/
+
 .inner-page-title {
 	margin-bottom: 55px;
 }
@@ -537,6 +539,7 @@ body {
 .short-text {
 	padding-right: 80px;
 }
+
 /*Колонки для контейнера*/
 
 .inner-columns {
@@ -565,6 +568,8 @@ body {
 .inner-column-right *:last-child {
 	margin-bottom: 0;
 }
+
+/*Подвал*/
 
 .main-footer{
 	margin-top: 65px;
@@ -663,8 +668,180 @@ body {
 
 	background-color: #ffffff; 
 }
-/*
 
+/*Всплывающая форма*/
+.modal-content {
+	position:absolute;
+	top:120px;
+	left:50%;
+
+	width: 300px;
+	margin-left: -230px; 
+	padding: 50px 80px;
+
+	color: #000000;
+
+	background: #f8f3f0 url("../img/pattern-white.png"); 
+  box-shadow: 0 30px 50px rgba(0,0,0,0.7);
+}
+.modal-content-close {
+	position: absolute;
+	top:0;
+	right:-34px;
+
+	width:22px;
+	height:22px;
+
+	font-size: 0;
+
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+}
+.modal-content-close::before,
+.modal-content-close::after {
+	content: "";
+	position: absolute;
+	top:10px;
+	left:2px;
+
+	width:19px;
+	height:3px;
+	background-color: #d0d0d0;
+	border-radius: 1px;
+}
+
+.modal-content-close::before {
+	transform: rotate(45deg);
+}
+
+.modal-content-close::after {
+	transform: rotate(-45deg);
+}
+
+.modal-contrnt h2{
+	margin: 0;
+	margin-bottom: 20px;
+
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.modal-content p{
+	margin: 0;
+	margin-bottom: 14px;
+}
+
+.modal-content .login-form {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	width: 241px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	padding-right: 40px;
+
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", "sans-serif";
+
+	color:#000000;
+	text-transform: uppercase;
+	background-color: #f9f6f3;
+	border: 2px solid #000000;
+
+}
+.login-form input.icon-user {
+	background-image: url(../img/sprite.png) ;
+	background-repeat: no-repeat;
+	background-position: 100% -504px;
+}
+
+.login-form input.icon-password {
+	background-image: url(../img/sprite.png) ;
+	background-repeat: no-repeat;
+	background-position: 100% -50px;
+}
+
+.login-form .restore {
+	float: right;
+
+	color: #000000;
+}
+
+.login-form .btn { 
+	width: 100%;
+	margin-top:15px;
+
+}
+
+.login-checkbox {
+	position: relative;
+
+	padding-left: 30px;
+
+	cursor: pointer;
+}
+.login-checkbox:hover {
+	color:#663d15;
+}
+
+
+.login-checkbox input[type="checkbox"] + .checkbox-indicator{
+	position: absolute;
+	top:-3px;
+	left:0;
+
+	width: 17px;
+	height: 17px;
+	border:2px solid #000000;
+}
+.login-checkbox input[type="checkbox"] {
+	display: none;
+}
+
+
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::after  {
+	content: "";
+	position: absolute;
+	top:8px;
+	left: 1px;
+
+	width: 15px;
+	height: 2px;
+
+	background-color: #000000;
+
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::before {
+	transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::aftrer{
+	transform: rotate(-45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::before{
+	transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+.checkbox-indicator::after{
+	transform: rotate(-45deg);
+}
+
+/*
 .sprite {
     background-image: url(spritesheet.png);
     background-repeat: no-repeat;
