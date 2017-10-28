@@ -37,79 +37,103 @@
 				</div>
 			</div>
 		</header>
-		<main class="container clearfix">
-			<div class="content">
-				<h1 class="page-title">СРЕДСТВА для ухода </h2>
+		<main class="container">
+			<div class="inner-page-title">
+				<h1>Средства для ухода </h1>
 				<ul class="breadcrumbs">
 					<li>
-						<a href="#">Главная</a>
-					</li>
+						<a href="index.html">Главная</a>
+						</li>
 					<li>
-						<a href="#">Магазин</a>
+						<a href="shop.html">Магазин</a>
 					</li>
-					<li>
-						<a href="#">Средства для ухода</a>
+					<li class="current">
+						Средства для ухода
 					</li>
 				</ul>
+			</div>
+			<div class="inner-content clearfix">
 			<div class="shop-content-left">
-					<!--Уже есть в index-content-title-->					
-				<form class="shop-select" method="get">
-					<!--Переделать?-->	
-					<h2 class="shop-content-title">Производители</h2>
+				<form class="shop-search" method="get">
+					<h2>Производители</h2>
 					<ul>
 						<li>
+							<label class="checkbox">
 							<input type="checkbox" name="productBrend" value="baxter" id ="baxter">
-							<label for="baxter">
+							
 								baxter of calofornia
+								<span class="checkbox-indicator"></span>
 							</label>
 						</li>
 						<li>
+							<label class="checkbox">
 							<input type="checkbox" name="productBrend" value="mrnatty" id="mrnatty">
-							<label for="mrnatty">
+							
 								mr natty
+								<span class="checkbox-indicator"></span>
 							</label>
 						</li>
 						<li>
+							<label class="checkbox">
 							<input type="checkbox" name="productBrend" value="suavecito" id="suavecito">
-							<label for="suavecito">
+							
 								suavecito
+								<span class="checkbox-indicator"></span>
 							</label>
 						</li>
 						<li>
+							<label  class="checkbox">
 							<input type="checkbox" name="productBrend" value="malin" id="malin">
-							<label for="malin">
 								malin+goetz
+								<span class="checkbox-indicator"></span>
 							</label>
 						</li>
 						<li>
+							<label class="checkbox">
+							<input type="checkbox" name="productBrend" value="murray" id="crew">
+							
+								Murray’s
+								<span class="checkbox-indicator"></span>
+							</label>
+						</li>
+						<li>
+							<label class="checkbox">
 							<input type="checkbox" name="productBrend" value="crew" id="crew">
-							<label for="crew">
+							
 								american crew
-							</label>				
+								<span class="checkbox-indicator"></span>
+							</label>
 						</li>
 					</ul>
-					<h2 class="shop-content-title">Группы товаров</h2>	
+					<h2>Группы товаров</h2>	
 					<ul>
 						<li>
+							<label class="radio">
 							<input type="radio" name="productGroup" value="val1" id="val1">
-							<label for="val1">
+							
 								Бритвенные пренадлежности
+							<span class="radio-indicator"></span>
 							</label>	
 						</li>
 						<li>
+							<label class="radio">
 							<input type="radio" name="productGroup" value="val2">
-							<label for="val1">
+							
 								Средстка для ухода
+							<span class="radio-indicator"></span>
 							</label>
 						</li>
 						<li>
+							<label class="radio">
 							<input type="radio" name="productGroup" value="val3">
-							<label for="val1">
+							
 								Аксессуары
+							<span class="radio-indicator"></span>
 							</label>
 						</li>
-							<button class="btn bth-search">Показать</button>
-					<ul>
+							</ul>
+								<button class="btn bth-search">Показать</button>
+					
 				</form>
 			</div>
 			<div class="shop-content-right">
@@ -191,24 +215,18 @@
 						<a class="btn" href="#">Купить</a>
 						</div>
 					</article>
-				<div class="page-slider ">
-					<ul>
-						<li>
-						<a href="#">1</a>
-						</li>
-						<li>
-						<a href="#">2</a>
-						</li>
-						<li>
-						<a href="#">3</a>
-						</li>
-						<li>
-						<a href="#">4</a>
-						</li>
+					<div class="paginator">
 
-					</ul> 
-				</div>
-				</div>
+							<a href="#">1</a>
+
+							<a class="current">2</a>
+
+							<a href="#">3</a>
+
+							<a href="#">4</a>
+
+					</div>
+      </div>
 		</main>
 		<footer class ="main-footer shop"> 
 			<div class="container clearfix">
