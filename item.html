@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang ="ru">
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<link href="css/price.css" rel="stylesheet">
 		<meta charset="utf-8">
 		<title>Барбершоп «Бородинский»</title>
 	</head>
-	<body>
+		<body class="inner-page">
 		<header class="main-header">
 			<div class="container clearfix">
 				<nav class="main-navigation">
+					<a class="inner-logo" href="index.html">
+						<img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп Бородинский">
+					</a>
 					<ul>
 						<li>
 							<a href="#">Информация</a>
@@ -17,11 +21,11 @@
 						<li>
 							<a href="#">Новости</a>
 						</li>
-						<li>
-							<a href="#">Прайс-лист</a>
+						<li >
+							<a href="price.html">Прайс-лист</a>
 						</li>
 						<li>
-							<a href="#">Магазин</a>
+							<a class="active">Магазин</a>
 						</li>
 						<li>
 							<a href="#">Контакты</a>
@@ -33,27 +37,32 @@
 				</div>
 			</div>
 		</header>
-		<main class="container clearfix">
-			<div class="content">
-				<h1 class="page-title">набор для путешествий «Baxter of California» </h2>
+		<main class="container">
+			<div class="inner-page-title">
+				<h1>набор для путешествий «Baxter of California» </h1>
 				<ul class="breadcrumbs">
 					<li>
-						<a href="#">Главная</a>
+						<a href="index.html">Главная</a>
 						</li>
 					<li>
-						<a href="#">Магазин</a>
+						<a href="shop.html">Магазин</a>
 					</li>
 					<li>
 						<a href="#">Средства для ухода</a>
 					</li>
-					<li>
-						<a href="#">набор для путешествий «Baxter of California» </a>
+					<li class="current">
+						набор для путешествий «Baxter of California» 
 					</li>
 				</ul>
+			</div>
+				<div class="inner-content-item clearfix">
 				<div class="item-gallery">
+					<img src="img/shop-product1-1.png" width="140" height="150" alt="Galery image">
+					<img src="img/shop-product1-2.png" width="140" height="150" alt="Galery image">
+					<img src="img/shop-product1-3.png" width="140" height="150" alt="Galery image">
+					<img src="img/shop-product1-1.png" width="140" height="150" alt="Galery image">
 				</div>
 				<div class="item-discription ">
-				<!--!!!!!!!!!!!!!!itemshop!!!!!!!!-->
 					<div class="item-shop clearfix">
 						<span class="item-status">
 						есть в наличии
@@ -62,16 +71,18 @@
 						Артикул: dexter-ae
 						</span>
 					</div>
-						<p class="item-text">
+						<p>
 							Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
 						</p>
-						<div class="product-buy">
-						<span class="product-price"> 2 900 руб</span>
-						<a class="btn" >Купить</a>
+						<div class="btn-buy">
+							<a href="#">
+						<span> 2 900 руб</span>
+						<span class="btn" >Купить</span>
+					</a>
 						</div>
 
-							<b class="item-includes">В набор входят:</b>
-							<ul class="item-list">
+							<b>В набор входят:</b>
+							<ul>
 								<li>
 								Средство для умывания (50 мл)
 								</li>
@@ -88,11 +99,10 @@
 								Удобная кожаная косметичка
 								</li>
 							</ul>
-
+						</div>
 				</div>
-			</div>
 		</main>
-		<footer class ="main-footer item"> 
+		<footer class ="main-footer"> 
 			<div class="container clearfix">
 				<section class="footer-contacts">
 					БАРБЕРШОП «БОРОДИНСКИЙ» <br>
