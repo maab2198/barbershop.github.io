@@ -17,6 +17,11 @@ body {
   background: #000000 url('../img/bg.jpg') no-repeat center top;
 }
 
+iframe {
+
+ border:0;
+}
+
 .inner-page {
   color: #000000;
 
