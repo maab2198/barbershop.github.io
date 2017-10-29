@@ -10,7 +10,6 @@ var overlay =document.querySelector(".modal-overlay");
 var storageLogin = localStorage.getItem("login");
 
 
-
 formLink.addEventListener("click", function(event) {
     event.preventDefault();
     formPopup.classList.add("modal-content-show");
